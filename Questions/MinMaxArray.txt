@@ -1,0 +1,67 @@
+You are given an array A (initially empty). You have to perform n operations on A -> in each operation you will be given an integer x which is to be appended to A (ie length of array will increase by 1 after each operation).
+
+Construct an array B by appending the difference between max and min element of A during each operation. (Read explaination for more details).
+
+You are also given an array C of length n. You are required to find if you can obtain array B from the given array C by rearranging elements of C . Note that you can rearrange any number of elements any number of times (possibly zero). 
+
+Input
+The first line of input contains an integer n (1<= n <=1000) - the number of operations.
+The next line contains n integers (0<= x <= 1e9) - which are to be appended to A.
+The last line contains n integer elements of array C  (0<= Ci <= 1e9).
+
+Output 
+In the output, print "1" (without quotes) if it is possible to obtain array B from given array C otherwise print "-1" (without quotes).
+
+
+--------------------
+Sample Test Case 1
+
+Input             
+5
+1 2 3 4 5
+1 0 2 4 3 
+
+Output 
+1
+--------------------
+Sample Test Case 2
+
+Input             
+1
+1 
+0
+
+Output 
+1
+--------------------
+Sample Test Case 3
+
+Input             
+3
+3 2 4
+0 1 1
+
+Output 
+-1
+--------------------
+
+More cases
+
+5
+3 8 1 9 0
+1 2 3 4 5 
+
+5
+3 8 1 9 0
+5 0 8 7 9
+
+
+
+
+
+
+
+
+
+
+

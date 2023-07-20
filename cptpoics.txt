@@ -1,0 +1,90 @@
+number theory :
+
+1. mod arithmetic 
+2. primes , multiples ,divisiors
+3. bitwise operators
+4. euclidean algorithm
+5. sieve
+6. binary modular exponentiation
+7. combinatorics
+Resources
+1. CodeNCode YT
+2. CP algo algebra
+3. utkarsh gupta NT video
+
+
+Binary and Ternary Search:
+1. General BS
+2. Monotonic fn and BS on answer
+3. c++ stl fn
+4. convex fn
+5. Ternary 
+Resources:
+1. cf edu secn
+2. cp algo(ternary)
+
+
+
+Greedy :
+1. Standard Greedy 
+2. Learning to prove your solution(Exchange Arguments)
+3. searching and sorting cses first 50% 
+Resources:
+1. GFG(for std greedy)
+2. Exchange args video algorithm live
+
+
+
+DP
+RECURSION  and  BACKTRACKING and memorization
+1. Standard DP 
+2. cses 
+3. basics with bitmasking
+4. basicics with trees
+5. no iterative dp
+
+Resources:
+1. Errichto DP beginner videos
+2. CSES problemset basic(Kartik Arora DP playlist)
+3. Atcoder DP contest 10 questions(Utkarsh Gupta Atcoder dp)
+
+
+Trees 
+1. Basic Trees 
+2. DFS
+3. Binary Lifting
+4. Finding LCA in logN
+5. Trees section of CSES problemset
+
+Resources :
+1. Galen Colins Trees
+2. Errichto's Binary Lifting video
+3. CSES Problemset trees (8 problems)
+
+
+Graphs
+1. Basic Properties
+2. DFS , BFS
+3. Connected Components
+4. Directed Graphs Basics 
+5. 1 MST Algorithm
+
+Resources :
+1. William Fiset
+2. Galen Colin 
+3. Cses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
