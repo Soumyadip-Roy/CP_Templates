@@ -16,9 +16,9 @@ bool dfs(int vertex , int par = 0){
     //if(vis[vertex]) return;
     
     for(int child : graph[vertex]){
-        //before entering the 
+        //before entering the child node 
         
-        if(vis[child] and child == par )continue;
+        if(vis[child] and child == par ) continue;
         if(vis[child]) return 1;
 
         isLoopExists |= dfs(child , vertex);

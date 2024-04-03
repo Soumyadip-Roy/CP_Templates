@@ -6,7 +6,7 @@ long long n , m;
 long long a[N];
 
 bool isHsuff(int h){
-    long long sum = 0 ;
+    long long sum = 0;
     for (int i = 0 ; i < n ; i++){
         if(a[i]-h>=0){sum+=(a[i]-h);}
     }

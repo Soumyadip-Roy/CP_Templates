@@ -14,12 +14,11 @@ int check(int row , int col ,vector<string> board,int n){
     while(col>=0){
         if(board[row][col]=='Q') return 0;
         col--;
-        
     }
     //check upper diagonal
     col=c,row=r;
     while(row>=0 and col>=0){
-        if(board[row][col]=='Q') return 0;
+        if(board[row][col]=='Q') return 0;  
         row--;col--;
     }
 
@@ -35,7 +34,7 @@ int check(int row , int col ,vector<string> board,int n){
 
 void Nqueen(int col,vector<string> board,vector<vector<string>> &NqueenPatterns,int n){
 
-    if(col==n){
+    if(col==n){ //all the columns already filled (0 based indexing)
         NqueenPatterns.push_back(board);
         return;
     }
@@ -44,7 +43,7 @@ void Nqueen(int col,vector<string> board,vector<vector<string>> &NqueenPatterns,
         if(check(row,col,board,n)){
             board[row][col]='Q';
             Nqueen(col+1,board,NqueenPatterns,n);
-            board[row][col]='.'; // backtracking step
+            board[row][col]='.'; // backtracking step - remove queen 
         }
     }
 }

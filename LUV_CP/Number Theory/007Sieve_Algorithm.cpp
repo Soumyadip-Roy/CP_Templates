@@ -79,8 +79,6 @@ signed main()
             }
         }
     }
-    int ans = 0;
-    int pct = 0;
 
     for (int i = a; i <= b; i++)
     {
